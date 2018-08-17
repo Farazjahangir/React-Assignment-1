@@ -1,0 +1,46 @@
+.main-div{
+  padding: 0;
+}
+.header{
+  background: rgba(5, 6, 87, 0.767);
+  padding: 7px !important;
+  color: white;
+}
+.text-center{
+  text-align: center;
+}
+.h-width{
+  width: 50%;
+}
+.ml-1{
+  margin-left: 15px !important; 
+}
+.my-6{
+  margin-top: 70px;
+}
+.my-0{
+  margin-bottom: 0;
+}
+.bg-grey{
+  background-color: rgba(211, 211, 211, 0.4);
+  padding: 30px;
+}
+th{
+  background-color: rgba(211, 211, 211, 0.4);
+}
+.post-div div:nth-child(3){
+  margin-top: 0 !important;
+}
+
+@media (max-width: 650px){
+  .h-width{
+    width: 90%
+  }
+  h3{
+    font-size: 22px;
+    font-weight: bold;
+  }
+  p{
+    font-size: 13px
+  }
+}
